@@ -1,0 +1,8 @@
+```javascript
+console.log("Le site est chargé !");
+
+// Exemple : changer le texte du header au clic
+document.querySelector("header h1").addEventListener("click", () => {
+  alert("Merci de visiter mon site !");
+});
+```
